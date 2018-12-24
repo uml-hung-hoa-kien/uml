@@ -1,6 +1,7 @@
 {
 	"_type": "Project",
 	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
 	"ownedElements": [
 		{
 			"_type": "UMLModel",
@@ -737,7 +738,7 @@
 											"top": 163.5,
 											"width": 94,
 											"height": 13,
-											"text": "chọn sản phẩm"
+											"text": "mua sản phẩm"
 										},
 										{
 											"_type": "LabelView",
@@ -770,7 +771,7 @@
 									"font": "Arial;13;0",
 									"left": 150,
 									"top": 156.5,
-									"width": 105.34814453125,
+									"width": 104,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFnY0dSd/06YO0="
@@ -5402,101 +5403,6 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAFnY124/SqYDwg="
 							}
-						},
-						{
-							"_type": "UMLIncludeView",
-							"_id": "AAAAAAFnY2IImzDwBeo=",
-							"_parent": {
-								"$ref": "AAAAAAFnY0OAjvwQyAo="
-							},
-							"model": {
-								"$ref": "AAAAAAFnY2IImTDuzIQ="
-							},
-							"subViews": [
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFnY2IImzDxBU8=",
-									"_parent": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"model": {
-										"$ref": "AAAAAAFnY2IImTDuzIQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 395,
-									"top": 106,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"edgePosition": 1
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFnY2IImzDyEKM=",
-									"_parent": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"model": {
-										"$ref": "AAAAAAFnY2IImTDuzIQ="
-									},
-									"font": "Arial;13;0",
-									"left": 353,
-									"top": 106,
-									"width": 55.65625,
-									"height": 13,
-									"alpha": 1.5707963267948966,
-									"distance": 30,
-									"hostEdge": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"edgePosition": 1,
-									"text": "«include»"
-								},
-								{
-									"_type": "EdgeLabelView",
-									"_id": "AAAAAAFnY2IImzDz8eM=",
-									"_parent": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"model": {
-										"$ref": "AAAAAAFnY2IImTDuzIQ="
-									},
-									"visible": false,
-									"font": "Arial;13;0",
-									"left": 424,
-									"top": 107,
-									"height": 13,
-									"alpha": -1.5707963267948966,
-									"distance": 15,
-									"hostEdge": {
-										"$ref": "AAAAAAFnY2IImzDwBeo="
-									},
-									"edgePosition": 1
-								}
-							],
-							"font": "Arial;13;0",
-							"head": {
-								"$ref": "AAAAAAFnY1aZtwfa8IM="
-							},
-							"tail": {
-								"$ref": "AAAAAAFnY0dnZ/2ShXA="
-							},
-							"lineStyle": 1,
-							"points": "410:119;410:107",
-							"showVisibility": true,
-							"nameLabel": {
-								"$ref": "AAAAAAFnY2IImzDxBU8="
-							},
-							"stereotypeLabel": {
-								"$ref": "AAAAAAFnY2IImzDyEKM="
-							},
-							"propertyLabel": {
-								"$ref": "AAAAAAFnY2IImzDz8eM="
-							}
 						}
 					]
 				},
@@ -5652,7 +5558,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "chọn sản phẩm"
+					"name": "mua sản phẩm"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -5668,22 +5574,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Xử lý đơn hàng",
-					"ownedElements": [
-						{
-							"_type": "UMLInclude",
-							"_id": "AAAAAAFnY2IImTDuzIQ=",
-							"_parent": {
-								"$ref": "AAAAAAFnY0dnZ/2Q2E0="
-							},
-							"source": {
-								"$ref": "AAAAAAFnY0dnZ/2Q2E0="
-							},
-							"target": {
-								"$ref": "AAAAAAFnY1aZtwfYHnY="
-							}
-						}
-					]
+					"name": "Xử lý đơn hàng"
 				},
 				{
 					"_type": "UMLUseCase",
@@ -6124,7 +6015,7 @@
 											"font": "Arial;13;0",
 											"left": -64,
 											"top": 64,
-											"width": 86.6708984375,
+											"width": 88,
 											"height": 13,
 											"text": "(from Activity1)"
 										},
@@ -6319,7 +6210,7 @@
 											"font": "Arial;13;0",
 											"left": -32,
 											"top": 192,
-											"width": 86.6708984375,
+											"width": 88,
 											"height": 13,
 											"text": "(from Activity1)"
 										},
@@ -6716,7 +6607,7 @@
 											"font": "Arial;13;0",
 											"left": -112,
 											"top": -16,
-											"width": 86.6708984375,
+											"width": 88,
 											"height": 13,
 											"text": "(from Activity1)"
 										},
@@ -6818,7 +6709,7 @@
 											"font": "Arial;13;0",
 											"left": 480,
 											"top": -144,
-											"width": 86.6708984375,
+											"width": 88,
 											"height": 13,
 											"text": "(from Activity1)"
 										},
